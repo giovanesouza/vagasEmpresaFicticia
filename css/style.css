@@ -19,14 +19,14 @@ body {
 }
 
 
-.navbar {
+.container {
     display: flex;
     justify-content: center;
 }
 
 /* INÍCIO NAVBAR */
 
-.container {
+.navbar {
     width: 1280px;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ div.logo {
     align-items: center;
 }
 
-nav {
+.links {
     width: 60%;
     display: flex;
 }
