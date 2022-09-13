@@ -181,7 +181,7 @@ span {
 
 
 
-/* TABLENTOS */
+/* TABLENTOS E VAGAS */
 
 .talentos {
     width: 85%;
@@ -224,10 +224,11 @@ span {
 .descricao {
     /* background-color: #fff; */
     line-height: 5rem;
-    padding: 2.4rem;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .descricao span {
     padding-right: 2rem;
 }
+
+/* FIM TABLENTOS E VAGAS */
