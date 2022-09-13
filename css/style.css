@@ -19,6 +19,15 @@ body {
     font-size: 1.6rem;
 }
 
+
+
+/* .container p{
+    width: 85%;
+
+} */
+
+
+
 /* VARIÁVEIS PARA ARMAZENAS AS CORES DO PROJETO */
 :root {
     --text-color: #667085;
@@ -33,7 +42,7 @@ body {
 /* INÍCIO NAVBAR */
 
 .navbar {
-    width: 128rem;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +54,8 @@ div.logo {
     width: 20%;
     color: #3A404E;
     
-
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -57,9 +65,7 @@ div.logo {
 }
 
 
-ul,
-li,
-a {
+ul, li,a {
     display: flex;
     list-style-type: none;
     color: var(--text-color);
@@ -70,6 +76,7 @@ a {
 .botoes {
     width: 20%;
     display: flex;
+    justify-content: end;
 }
 
 button {
@@ -97,15 +104,23 @@ button#cadastrar {
 
 .sobre-nos {
 
-    padding: 7rem 0;
+    width: 85%;
+    height: 40.7rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    justify-content: center;
+
+    gap: 3rem;
 
   }
+
+/* .sobre-nos .content {
+    width: 95%;
+} */
   
-  .sobre-nos span {
+span {
     color: var(--main-color);
     font-weight: 600;
   }
@@ -129,16 +144,16 @@ button#cadastrar {
 /* INÍCIO SEÇÃO MÉTRICAS */
 
 .metricas-container {
-    width: 100%;
+
+    width: 85%;
     height: 28.8rem;
   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+   
     gap: 0 3rem;
 
     justify-content: center;
-
-    padding: 0 8rem;
     
 }
 
@@ -162,5 +177,57 @@ button#cadastrar {
 
 }
 
-
 /* FIM SEÇÃO MÉTRICAS */
+
+
+
+/* TABLENTOS */
+
+.talentos {
+    width: 85%;
+    margin-bottom: 1rem;
+}
+
+.vagas {
+    text-align: center;
+   line-height: 4rem;
+   margin-bottom: 2rem;
+
+}
+
+.vagas img {
+    width: 100%;
+}
+
+
+
+.talentos h2 {
+    color: #101828;
+    font-weight: 600;
+}
+
+.talentos p {
+    color: var(--text-color);
+}
+
+
+
+.oportunidade {
+    padding-left: 12rem;
+    /* background-color: #667085; */
+}
+
+.area {
+    text-align: justify;
+}
+
+.descricao {
+    /* background-color: #fff; */
+    line-height: 5rem;
+    padding: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.descricao span {
+    padding-right: 2rem;
+}
